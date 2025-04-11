@@ -29,13 +29,13 @@
           <mxGeometry x="381" y="920" width="192" height="48" as="geometry" />
         </mxCell>
         <mxCell id="hA8SeH2lJvatwC0WO8x--20" value="遍历告警关联订阅者" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="375" y="1065" width="204" height="48" as="geometry" />
+          <mxGeometry x="375" y="1010" width="204" height="48" as="geometry" />
         </mxCell>
         <mxCell id="hA8SeH2lJvatwC0WO8x--21" value="异步发送通知" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="399" y="1163" width="156" height="48" as="geometry" />
+          <mxGeometry x="399" y="1120" width="156" height="48" as="geometry" />
         </mxCell>
         <mxCell id="hA8SeH2lJvatwC0WO8x--22" value="回调是否成功" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="405" y="1262" width="144" height="144" as="geometry" />
+          <mxGeometry x="405" y="1220" width="144" height="144" as="geometry" />
         </mxCell>
         <mxCell id="hA8SeH2lJvatwC0WO8x--23" value="重试最多3次" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="467" y="1478" width="148" height="48" as="geometry" />
