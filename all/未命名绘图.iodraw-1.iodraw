@@ -131,6 +131,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="hA8SeH2lJvatwC0WO8x--50" value="接收Kafka消息&#xa;topic:alarmRelation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="161" y="28" width="164" height="48" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
