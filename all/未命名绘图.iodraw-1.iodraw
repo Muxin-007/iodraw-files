@@ -135,13 +135,10 @@
           <mxGeometry x="161" y="28" width="164" height="48" as="geometry" />
         </mxCell>
         <mxCell id="hA8SeH2lJvatwC0WO8x--51" value="产生告警" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="161" y="100" width="164" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="hA8SeH2lJvatwC0WO8x--52" value="南向处理告警是否关联" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="161" y="175" width="164" height="48" as="geometry" />
+          <mxGeometry x="161" y="127" width="164" height="48" as="geometry" />
         </mxCell>
         <mxCell id="hA8SeH2lJvatwC0WO8x--53" value="南向处理告警是否关联" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="163" y="293" width="158" height="134" as="geometry" />
+          <mxGeometry x="161" y="225" width="158" height="134" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
