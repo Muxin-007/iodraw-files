@@ -131,14 +131,26 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="hA8SeH2lJvatwC0WO8x--55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hA8SeH2lJvatwC0WO8x--50" target="hA8SeH2lJvatwC0WO8x--51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hA8SeH2lJvatwC0WO8x--50" value="平台配置关联告警" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="161" y="28" width="164" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="hA8SeH2lJvatwC0WO8x--56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hA8SeH2lJvatwC0WO8x--51" target="hA8SeH2lJvatwC0WO8x--53">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hA8SeH2lJvatwC0WO8x--51" value="产生告警" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="161" y="127" width="164" height="48" as="geometry" />
         </mxCell>
         <mxCell id="hA8SeH2lJvatwC0WO8x--53" value="南向处理告警是否关联" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="161" y="225" width="158" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="hA8SeH2lJvatwC0WO8x--54" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="372" y="1266" as="sourcePoint" />
+            <mxPoint x="422" y="1216" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
