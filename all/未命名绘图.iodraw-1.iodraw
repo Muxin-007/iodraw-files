@@ -137,8 +137,11 @@
         <mxCell id="hA8SeH2lJvatwC0WO8x--51" value="产生告警" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="161" y="120" width="164" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="hA8SeH2lJvatwC0WO8x--52" value="产生告警" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="hA8SeH2lJvatwC0WO8x--52" value="南向处理告警是否关联" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="161" y="206" width="164" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="hA8SeH2lJvatwC0WO8x--53" value="解析消息为AlarmRelationKafkaInfo数组" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="418" y="242" width="264" height="264" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
