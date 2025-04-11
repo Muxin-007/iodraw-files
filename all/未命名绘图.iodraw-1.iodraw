@@ -190,7 +190,7 @@
         <mxCell id="hA8SeH2lJvatwC0WO8x--66" value="南向系统" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="467" y="246" width="144" height="77" as="geometry" />
         </mxCell>
-        <mxCell id="hA8SeH2lJvatwC0WO8x--67" value="North" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hA8SeH2lJvatwC0WO8x--67" value="北向系统" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="491" y="636" width="144" height="77" as="geometry" />
         </mxCell>
       </root>
