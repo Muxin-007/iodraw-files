@@ -1,0 +1,113 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="PWfkF1kGUyk2TDHyBXTo">
+    <mxGraphModel dx="1242" dy="2730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="694dPmYxo5P2GuNr-GMQ-1" value="开始同步进程" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="151" y="20" width="156" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="694dPmYxo5P2GuNr-GMQ-2" value="设置5秒同步间隔" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="139" y="118" width="180" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="694dPmYxo5P2GuNr-GMQ-3" value="进入同步循环" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="151" y="217" width="156" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="694dPmYxo5P2GuNr-GMQ-4" value="从数据库查询启用的Socket配置" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="22" y="315" width="251" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="694dPmYxo5P2GuNr-GMQ-5" value="获取每个Socket通道的RMUID数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="21" y="431" width="255" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="694dPmYxo5P2GuNr-GMQ-6" value="构建新的SocketChannelConfig" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="547" width="256" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="694dPmYxo5P2GuNr-GMQ-7" value="新旧配置是否相同?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="57" y="663" width="183" height="183" as="geometry" />
+        </mxCell>
+        <mxCell id="694dPmYxo5P2GuNr-GMQ-8" value="创建新的SocketServerConfig" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="102" y="918" width="254" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="694dPmYxo5P2GuNr-GMQ-9" value="更新RuntimeConfig" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="131" y="1034" width="197" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="694dPmYxo5P2GuNr-GMQ-10" value="发送配置变更通知" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="135" y="1133" width="188" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="694dPmYxo5P2GuNr-GMQ-11" value="等待下一个同步周期" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="127" y="1231" width="204" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="694dPmYxo5P2GuNr-GMQ-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="694dPmYxo5P2GuNr-GMQ-1" target="694dPmYxo5P2GuNr-GMQ-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="694dPmYxo5P2GuNr-GMQ-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="694dPmYxo5P2GuNr-GMQ-2" target="694dPmYxo5P2GuNr-GMQ-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="694dPmYxo5P2GuNr-GMQ-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.25;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="694dPmYxo5P2GuNr-GMQ-3" target="694dPmYxo5P2GuNr-GMQ-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="148" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="694dPmYxo5P2GuNr-GMQ-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="694dPmYxo5P2GuNr-GMQ-4" target="694dPmYxo5P2GuNr-GMQ-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="694dPmYxo5P2GuNr-GMQ-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="694dPmYxo5P2GuNr-GMQ-5" target="694dPmYxo5P2GuNr-GMQ-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="694dPmYxo5P2GuNr-GMQ-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="694dPmYxo5P2GuNr-GMQ-6" target="694dPmYxo5P2GuNr-GMQ-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="694dPmYxo5P2GuNr-GMQ-18" value="不同" style="curved=1;startArrow=none;endArrow=block;exitX=0.81;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="694dPmYxo5P2GuNr-GMQ-7" target="694dPmYxo5P2GuNr-GMQ-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="229" y="882" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="694dPmYxo5P2GuNr-GMQ-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="694dPmYxo5P2GuNr-GMQ-8" target="694dPmYxo5P2GuNr-GMQ-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="694dPmYxo5P2GuNr-GMQ-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="694dPmYxo5P2GuNr-GMQ-9" target="694dPmYxo5P2GuNr-GMQ-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="694dPmYxo5P2GuNr-GMQ-21" value="相同" style="curved=1;startArrow=none;endArrow=block;exitX=0.18;exitY=1;entryX=0.11;entryY=0;rounded=0;" edge="1" parent="1" source="694dPmYxo5P2GuNr-GMQ-7" target="694dPmYxo5P2GuNr-GMQ-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="67" y="882" />
+              <mxPoint x="67" y="1206" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="694dPmYxo5P2GuNr-GMQ-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="694dPmYxo5P2GuNr-GMQ-10" target="694dPmYxo5P2GuNr-GMQ-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="694dPmYxo5P2GuNr-GMQ-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.89;exitY=0;entryX=1;entryY=0.99;rounded=0;" edge="1" parent="1" source="694dPmYxo5P2GuNr-GMQ-11" target="694dPmYxo5P2GuNr-GMQ-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="391" y="1206" />
+              <mxPoint x="391" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
