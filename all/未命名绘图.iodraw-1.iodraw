@@ -22,15 +22,6 @@
         <mxCell id="hA8SeH2lJvatwC0WO8x--6" value="遍历告警关联消息" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="383" y="704" width="188" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="hA8SeH2lJvatwC0WO8x--8" value="记录错误日志并继续" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="236" y="1125" width="204" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="hA8SeH2lJvatwC0WO8x--10" value="检查source_alarm.id_auto是否存在" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="489" y="1232" width="254" height="254" as="geometry" />
-        </mxCell>
-        <mxCell id="hA8SeH2lJvatwC0WO8x--11" value="记录错误日志并继续" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="390" y="1558" width="204" height="48" as="geometry" />
-        </mxCell>
         <mxCell id="hA8SeH2lJvatwC0WO8x--12" value="获取root_alarm_id" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="644" y="1558" width="193" height="48" as="geometry" />
         </mxCell>
@@ -107,43 +98,6 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
             <mxPoint x="477.5" y="802" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hA8SeH2lJvatwC0WO8x--31" value="不存在" style="curved=1;startArrow=none;endArrow=block;exitX=0.05;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" target="hA8SeH2lJvatwC0WO8x--8">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="338" y="1080" />
-            </Array>
-            <mxPoint x="420.4210526315792" y="985.9210526315792" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hA8SeH2lJvatwC0WO8x--32" value="存在" style="curved=1;startArrow=none;endArrow=block;exitX=0.94;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="616" y="1080" />
-            </Array>
-            <mxPoint x="533.9042553191489" y="986.5957446808511" as="sourcePoint" />
-            <mxPoint x="616.5" y="1116" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hA8SeH2lJvatwC0WO8x--33" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" target="hA8SeH2lJvatwC0WO8x--10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-            <mxPoint x="616.5" y="1182" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hA8SeH2lJvatwC0WO8x--34" value="不存在" style="curved=1;startArrow=none;endArrow=block;exitX=0.12;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="hA8SeH2lJvatwC0WO8x--10" target="hA8SeH2lJvatwC0WO8x--11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="492" y="1522" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hA8SeH2lJvatwC0WO8x--35" value="存在" style="curved=1;startArrow=none;endArrow=block;exitX=0.88;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="hA8SeH2lJvatwC0WO8x--10" target="hA8SeH2lJvatwC0WO8x--12">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="741" y="1522" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="hA8SeH2lJvatwC0WO8x--36" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="hA8SeH2lJvatwC0WO8x--12" target="hA8SeH2lJvatwC0WO8x--13">
