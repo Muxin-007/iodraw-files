@@ -146,7 +146,7 @@
         <mxCell id="hA8SeH2lJvatwC0WO8x--59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hA8SeH2lJvatwC0WO8x--53" target="hA8SeH2lJvatwC0WO8x--1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hA8SeH2lJvatwC0WO8x--60" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hA8SeH2lJvatwC0WO8x--59">
+        <mxCell id="hA8SeH2lJvatwC0WO8x--60" value="有关联，南向发送kafka消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hA8SeH2lJvatwC0WO8x--59">
           <mxGeometry x="-0.3668" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -161,6 +161,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hA8SeH2lJvatwC0WO8x--58" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="372" y="1266" as="sourcePoint" />
+            <mxPoint x="422" y="1216" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hA8SeH2lJvatwC0WO8x--61" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="372" y="1266" as="sourcePoint" />
             <mxPoint x="422" y="1216" as="targetPoint" />
