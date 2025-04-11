@@ -38,10 +38,10 @@
           <mxGeometry x="405" y="1220" width="144" height="144" as="geometry" />
         </mxCell>
         <mxCell id="hA8SeH2lJvatwC0WO8x--23" value="重试最多3次" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="467" y="1478" width="148" height="48" as="geometry" />
+          <mxGeometry x="467" y="1440" width="148" height="48" as="geometry" />
         </mxCell>
         <mxCell id="hA8SeH2lJvatwC0WO8x--24" value="完成处理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="415" y="1599" width="124" height="48" as="geometry" />
+          <mxGeometry x="415" y="1570" width="124" height="48" as="geometry" />
         </mxCell>
         <mxCell id="hA8SeH2lJvatwC0WO8x--25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="hA8SeH2lJvatwC0WO8x--1" target="hA8SeH2lJvatwC0WO8x--2">
           <mxGeometry relative="1" as="geometry">
